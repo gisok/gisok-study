@@ -5,3 +5,4 @@ Git has a mutable index called stage.
 GIT管理的是变化。
 
 Git branch  master  modified.
+branch b1 midified.
