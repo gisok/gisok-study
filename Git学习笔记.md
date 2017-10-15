@@ -46,6 +46,14 @@ commit可以一次提交很多文件
 git diff readme.txt
 ```
 
+## reset:设置当前版本
+
+当前版本标记为 HEAD,上一个版本为 HEAD^,上上一个为 HEAD^^, 上上上一个为 HEAD~3
+
+```
+git reset --hard HEAD^
+```
+
 
 
 
