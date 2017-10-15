@@ -3,6 +3,12 @@
 [TOC]
 
 ## 创建文件夹
+## status:查看状态
+
+```
+git status
+```
+
 ## init:初始化该文件夹为GIT仓库
 ```
     git init
@@ -33,4 +39,27 @@ git commit -m "提交第一个文件 readme.txt"
 
 commit可以一次提交很多文件
 
+
+## diff:查看文件有什么改动
+
+```
+git diff readme.txt
+```
+
+
+
+
 ## ?怎么使用汉字文件名?
+
+通过将Git配置变量 core.quotepath 设置为false，就可以解决中文文件名称在这些Git命令输出中的显示问题，
+
+```        
+$ git config --global core.quotepath false
+$ git status -s
+?? 说明.txt
+```
+
+
+## 注意
+
+### 文件名大小写敏感
