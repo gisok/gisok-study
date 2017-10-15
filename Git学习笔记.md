@@ -46,16 +46,33 @@ commit可以一次提交很多文件
 git diff readme.txt
 ```
 
+## log：查看版本记录
+
+```
+git log
+```
+
+
 ## reset:设置当前版本
 
-当前版本标记为 HEAD,上一个版本为 HEAD^,上上一个为 HEAD^^, 上上上一个为 HEAD~3
+* 当前版本标记为 HEAD,上一个版本为 HEAD^,上上一个为 HEAD^^, 上上上一个为 HEAD~3
 
 ```
 git reset --hard HEAD^
 ```
 
+* 根据版本号设定回到哪个版本
+
+```
+git reset --hard bcc91a
+```
 
 
+## reflog：查看版本设定记录
+
+```
+git reflog
+```
 
 ## ?怎么使用汉字文件名?
 
@@ -71,3 +88,16 @@ $ git status -s
 ## 注意
 
 ### 文件名大小写敏感
+
+### 概念
+
+* 工作区
+    电脑里能看到的目录，比如我的learngit文件夹就是一个工作区
+
+* 版本库
+    隐藏目录.git，是Git的版本库。
+    Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD
+
+* add 工作区 -> 暂存区
+* commit 暂存区 -> 分支
+* 
