@@ -6,3 +6,5 @@ GIT管理的是变化。
 
 Git branch  master  modified.
 branch b1 midified.
+
+到 GitHub 上查看是否有变化
