@@ -164,3 +164,6 @@ $ git status -s
 ![pic1](https://www.liaoxuefeng.com/files/attachments/0013849087937492135fbf4bbd24dfcbc18349a8a59d36d000/0)
     
 
+本项目上传到GitHUb的项目地址
+
+https://github.com/gisok/git-study.git
