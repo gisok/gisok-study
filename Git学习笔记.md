@@ -140,7 +140,18 @@ $ git branch dev
 $ git checkout -b dev
 ```
 
+### clone : 从github克隆项目
 
+```
+$ git clone git@github.com:michaelliao/gitskills.git
+```
+
+### 删除GitHub仓库
+
+![删除GitHub仓库1](http://images2015.cnblogs.com/blog/856299/201611/856299-20161108232442249-459290234.jpg)
+
+
+![删除GitHub仓库2](http://images2015.cnblogs.com/blog/856299/201611/856299-20161108232452280-1027780882.jpg)
 
 ## 概念
 
